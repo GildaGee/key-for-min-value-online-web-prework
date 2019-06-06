@@ -6,7 +6,7 @@ lowest_key = nil
 lowest_value = nil 
 
 name_hash.each do |k, v|
-  if k && v == nil
+  if lowest_value == nil
     return nil 
   else
     return "wat"
